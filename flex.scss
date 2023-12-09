@@ -1,7 +1,7 @@
 .flex-container {
   margin: 20px;
   display: flex;
-  border: 5px solid black;
+  border: 5px solid red;
   flex-direction: row;
   height: 500px;
   width: 1000px;
@@ -12,7 +12,6 @@
   width: 300px;
   margin: 10px;
   background-color: bisque;
-  flex: 1;
 }
 
 .r-box {
@@ -35,7 +34,7 @@
   display: flex;
   border: 2px solid red;
   flex: 1;
-  background-color: brown;
+  background-color: blue;
 }
 
 .middle-box {
@@ -52,6 +51,20 @@
   border: 2px solid lightslategrey;
   flex: 1;
   background-color: blueviolet;
+}
+
+li {
+  color: darkblue;
+  list-style: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  width: 150px;
+  border: 2px solid blue;
+  border-radius: 8px;
+  font-family: cursive;
 }
 
 @media screen and (max-width: 600px) {
